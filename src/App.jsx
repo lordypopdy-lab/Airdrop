@@ -488,7 +488,7 @@ function App() {
                         <li style={{ background: "#0f1216" }} className="p-1 rounded">
                             <div style={{ background: "#07080a" }} className="single-profile-wrap">
                                 <img width={40} src="https://freepnglogo.com/images/all_img/1725374683twitter-x-logo.png" alt="" srcset="" />
-                                Follow Bitclub on X
+                                +Follow Bitclub on X
                                 <button style={{ fontSize: "13px" }} className="claimbtn">
                                     Claim
                                 </button>
@@ -498,7 +498,7 @@ function App() {
                         <li style={{ background: "#0f1216" }} className="p-1 rounded">
                             <div style={{ background: "#07080a" }} className="single-profile-wrap">
                                 <img width={40} src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/instagram-white-icon.png" alt="" srcset="" />
-                                Follow Bitclub on Insta
+                                +Follow Bitclub
                                 <button className="claimbtn pb-2 pt-1">
                                     <div className="spinner-border spinner-border-sm" role="status">
                                         <span className="sr-only">Loading...</span>
