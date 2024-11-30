@@ -448,7 +448,7 @@ function App() {
                         <li style={{ background: "#0f1216" }} className="p-1 rounded">
                             <a className="single-profile-wrap" href="#" style={{ marginBottom: "-30px", background: "#07080a" }}>
                                 <img width={40} style={{ borderRadius: "50%" }} src="https://img.icons8.com/m_rounded/512/FFFFFF/facebook.png" alt="" srcset="" />
-                                Follow Bitclub on Facebook
+                                +Follow Bitclub
                                 <button className="claimbtn">
                                     Do
                                 </button>
@@ -468,7 +468,7 @@ function App() {
                         <li style={{ background: "#0f1216" }} className="p-1 rounded">
                             <a className="single-profile-wrap" href="#" style={{ marginBottom: "-30px", background: "#07080a" }}>
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSofki2i-o95YcfWGaj96gqaT5ABn_oQaLpHg&s" width={40} alt="" srcset="" />
-                                React to this post on TG
+                                React to post on TG
                                 <button className="claimbtn">
                                     Do
                                 </button>
@@ -478,7 +478,7 @@ function App() {
                         <li style={{ background: "#0f1216" }} className="p-1 rounded">
                             <a style={{ background: "#07080a" }} className="single-profile-wrap" href="#">
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSofki2i-o95YcfWGaj96gqaT5ABn_oQaLpHg&s" width={40} alt="" srcset="" />
-                                React to this post on TG
+                                React to post on TG
                                 <button className="claimbtn">
                                     <svg xmlns="http://www.w3.org/2000/svg" style={{ margin: "4px", }} height="16px" viewBox="0 -960 960 960" width="16px" fill="#07080a"><path d="m344-60-76-128-144-32 14-148-98-112 98-112-14-148 144-32 76-128 136 58 136-58 76 128 144 32-14 148 98 112-98 112 14 148-144 32-76 128-136-58-136 58Zm34-102 102-44 104 44 56-96 110-26-10-112 74-84-74-86 10-112-110-24-58-96-102 44-104-44-56 96-110 24 10 112-74 86 74 84-10 114 110 24 58 96Zm102-318Zm-42 142 226-226-56-58-170 170-86-84-56 56 142 142Z" /></svg>
                                 </button>
@@ -498,7 +498,7 @@ function App() {
                         <li style={{ background: "#0f1216" }} className="p-1 rounded">
                             <div style={{ background: "#07080a" }} className="single-profile-wrap">
                                 <img width={40} src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/instagram-white-icon.png" alt="" srcset="" />
-                                Follow Bitclub on Instagram
+                                Follow Bitclub on Insta
                                 <button className="claimbtn pb-2 pt-1">
                                     <div className="spinner-border spinner-border-sm" role="status">
                                         <span className="sr-only">Loading...</span>
