@@ -406,19 +406,19 @@ function App() {
                             {cards.map((card) => (
                                 <div key={card.id} style={{ padding: "10px" }}>
                                     <div style={{ padding: "25px", background: "#07080a", borderRadius: "10px", boxShadow: "0 4px 8px 0 rgba(29, 28, 28, 0.2), 0 6px 20px 0 rgba(47, 46, 46, 0.19)" }}>
-                                       <div style={{  boxShadow: "0 4px 8px 0 rgba(29, 28, 28, 0.2), 0 6px 20px 0 rgba(47, 46, 46, 0.19)", padding: "8px", background: "#0f1216", width: "100px", textAlign: "center", borderRadius: "7px"}}>
-                                      <div>
-                                      <img style={{marginLeft: "20px", marginBottom: "6px", marginTop: "16px"}} width={40} src="/logo/48.png" alt="" srcset="" />
-                                      <p style={{color: "#e1e1e1"}}>Bitclub</p>
-                                      <button style={{border: "none", outline: "none", fontSize: "14px", background: "#07080a", color: "#e1e1e1", borderRadius: "12px"}}>
-                                        +2000 BP
-                                      </button>
-                                      </div>
-                                       </div>
+                                        <div style={{ boxShadow: "0 4px 8px 0 rgba(29, 28, 28, 0.2), 0 6px 20px 0 rgba(47, 46, 46, 0.19)", padding: "8px", background: "#0f1216", width: "100px", textAlign: "center", borderRadius: "7px" }}>
+                                            <div>
+                                                <img style={{ marginLeft: "20px", marginBottom: "6px", marginTop: "16px" }} width={40} src="/logo/48.png" alt="" srcset="" />
+                                                <p style={{ color: "#e1e1e1" }}>Bitclub</p>
+                                                <button style={{ border: "none", outline: "none", fontSize: "14px", background: "#07080a", color: "#e1e1e1", borderRadius: "12px" }}>
+                                                    +2000 BP
+                                                </button>
+                                            </div>
+                                        </div>
                                         <button style={{ float: "right", background: "#0f1216", color: "#e1e1e1", marginTop: "-50px", marginRight: "-18px" }} className="btn">
-                                        Get
+                                            Get
                                         </button>
-                                        <h5 style={{float: "right", marginTop: "-120px", color: '#e1e1e1', padding: "10px", borderRadius: "7px", boxShadow: "0 4px 8px 0 rgba(29, 28, 28, 0.2), 0 6px 20px 0 rgba(47, 46, 46, 0.19)"}}>
+                                        <h5 style={{ float: "right", marginTop: "-120px", color: '#e1e1e1', padding: "10px", borderRadius: "7px", boxShadow: "0 4px 8px 0 rgba(29, 28, 28, 0.2), 0 6px 20px 0 rgba(47, 46, 46, 0.19)" }}>
                                             Partners
                                         </h5>
                                     </div>
@@ -480,30 +480,32 @@ function App() {
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSofki2i-o95YcfWGaj96gqaT5ABn_oQaLpHg&s" width={40} alt="" srcset="" />
                                 React to this post on TG
                                 <button className="claimbtn">
-                                    Do
+                                    <svg xmlns="http://www.w3.org/2000/svg" style={{ margin: "4px", }} height="16px" viewBox="0 -960 960 960" width="16px" fill="#07080a"><path d="m344-60-76-128-144-32 14-148-98-112 98-112-14-148 144-32 76-128 136 58 136-58 76 128 144 32-14 148 98 112-98 112 14 148-144 32-76 128-136-58-136 58Zm34-102 102-44 104 44 56-96 110-26-10-112 74-84-74-86 10-112-110-24-58-96-102 44-104-44-56 96-110 24 10 112-74 86 74 84-10 114 110 24 58 96Zm102-318Zm-42 142 226-226-56-58-170 170-86-84-56 56 142 142Z" /></svg>
                                 </button>
                             </a>
-                            <span style={{ color: "#e1e1e1", marginLeft: "70px", fontSize: "12px", display: "flex", marginTop: "-23px"}}>+500 BP</span>
+                            <span style={{ color: "#e1e1e1", marginLeft: "70px", fontSize: "12px", display: "flex", marginTop: "-23px" }}>+500 BP</span>
                         </li>
                         <li style={{ background: "#0f1216" }} className="p-1 rounded">
                             <div style={{ background: "#07080a" }} className="single-profile-wrap">
                                 <img width={40} src="https://freepnglogo.com/images/all_img/1725374683twitter-x-logo.png" alt="" srcset="" />
                                 Follow Bitclub on X
-                                <button className="claimbtn">
-                                    Do
+                                <button style={{ fontSize: "13px" }} className="claimbtn">
+                                    Claim
                                 </button>
                             </div>
-                            <span style={{ color: "#e1e1e1", marginLeft: "70px", fontSize: "12px", display: "flex", marginTop: "-23px"}}>+500 BP</span>
+                            <span style={{ color: "#e1e1e1", marginLeft: "70px", fontSize: "12px", display: "flex", marginTop: "-23px" }}>+500 BP</span>
                         </li>
                         <li style={{ background: "#0f1216" }} className="p-1 rounded">
                             <div style={{ background: "#07080a" }} className="single-profile-wrap">
                                 <img width={40} src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/instagram-white-icon.png" alt="" srcset="" />
                                 Follow Bitclub on Instagram
-                                <button className="claimbtn">
-                                    Do
+                                <button className="claimbtn pb-2 pt-1">
+                                    <div className="spinner-border spinner-border-sm" role="status">
+                                        <span className="sr-only">Loading...</span>
+                                    </div>
                                 </button>
                             </div>
-                            <span style={{ color: "#e1e1e1", marginLeft: "70px", fontSize: "12px", display: "flex", marginTop: "-23px"}}>+500 BP</span>
+                            <span style={{ color: "#e1e1e1", marginLeft: "70px", fontSize: "12px", display: "flex", marginTop: "-23px" }}>+500 BP</span>
                         </li>
                     </ul>
                 </div>
